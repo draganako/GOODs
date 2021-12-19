@@ -1,0 +1,15 @@
+D:\TINA\VII semestar\Napredne baze podataka\Projekti\Projekat 2 (Neo4J)\Neo4J_Repository\WindowsFormsApp1\obj\Debug\Layouts.csprojResolveAssemblyReference.cache
+D:\TINA\VII semestar\Napredne baze podataka\Projekti\Projekat 2 (Neo4J)\Neo4J_Repository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Layout1.resources
+D:\TINA\VII semestar\Napredne baze podataka\Projekti\Projekat 2 (Neo4J)\Neo4J_Repository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Layout2.resources
+D:\TINA\VII semestar\Napredne baze podataka\Projekti\Projekat 2 (Neo4J)\Neo4J_Repository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\TINA\VII semestar\Napredne baze podataka\Projekti\Projekat 2 (Neo4J)\Neo4J_Repository\WindowsFormsApp1\obj\Debug\Layouts.csproj.GenerateResource.Cache
+D:\TINA\VII semestar\Napredne baze podataka\Projekti\Projekat 2 (Neo4J)\Neo4J_Repository\WindowsFormsApp1\obj\Debug\Layouts.csproj.CoreCompileInputs.cache
+D:\TINA\VII semestar\Napredne baze podataka\Projekti\Projekat 2 (Neo4J)\Neo4J_Repository\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.dll.config
+D:\TINA\VII semestar\Napredne baze podataka\Projekti\Projekat 2 (Neo4J)\Neo4J_Repository\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.dll
+D:\TINA\VII semestar\Napredne baze podataka\Projekti\Projekat 2 (Neo4J)\Neo4J_Repository\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\TINA\VII semestar\Napredne baze podataka\Projekti\Projekat 2 (Neo4J)\Neo4J_Repository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.dll
+D:\TINA\VII semestar\Napredne baze podataka\Projekti\Projekat 2 (Neo4J)\Neo4J_Repository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\TINA\VII semestar\Napredne baze podataka\Projekti\Projekat 2 (Neo4J)\Neo4J_Repository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Layout1Small.resources
+D:\TINA\VII semestar\Napredne baze podataka\Projekti\Projekat 2 (Neo4J)\Neo4J_Repository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ProbaLayout.resources
+D:\TINA\VII semestar\Napredne baze podataka\Projekti\Projekat 2 (Neo4J)\Neo4J_Repository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ProbaLayoutSmall.resources
+D:\TINA\VII semestar\Napredne baze podataka\Projekti\Projekat 2 (Neo4J)\Neo4J_Repository\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Layout2Small.resources

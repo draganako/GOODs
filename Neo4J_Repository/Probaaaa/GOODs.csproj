@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{35159AE6-C0D0-493A-9ABF-F617BB9D89FC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Probaaaa</RootNamespace>
+    <AssemblyName>Probaaaa</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Neo4jClient">
+      <HintPath>..\packages\Neo4jClient.1.1.0.14\lib\net45\Neo4jClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddProizvod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProizvod.Designer.cs">
+      <DependentUpon>AddProizvod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminOpcije.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminOpcije.Designer.cs">
+      <DependentUpon>AdminOpcije.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kolekcijaDesc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kolekcijaDesc.Designer.cs">
+      <DependentUpon>kolekcijaDesc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogCollectionsAdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogCollectionsAdminForm.Designer.cs">
+      <DependentUpon>CatalogCollectionsAdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DomainModel\Katalog.cs" />
+    <Compile Include="DomainModel\Kolekcija.cs" />
+    <Compile Include="DomainModel\Korisnik.cs" />
+    <Compile Include="DomainModel\Proizvod.cs" />
+    <Compile Include="DomainModel\Rating.cs" />
+    <Compile Include="FormKorisnikKatalozi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKorisnikKatalozi.Designer.cs">
+      <DependentUpon>FormKorisnikKatalozi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IzborKatalogaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IzborKatalogaForma.Designer.cs">
+      <DependentUpon>IzborKatalogaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KolekcijaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KolekcijaForma.Designer.cs">
+      <DependentUpon>KolekcijaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Layout4Products.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Layouts\Layout4Products.Designer.cs">
+      <DependentUpon>Layout4Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProizvodiAdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProizvodiAdminForm.Designer.cs">
+      <DependentUpon>ProizvodiAdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KorisnikForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KorisnikForma.Designer.cs">
+      <DependentUpon>KorisnikForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Layout1Small.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Layouts\Layout1Small.Designer.cs">
+      <DependentUpon>Layout1Small.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Layout2Small.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Layouts\Layout2Small.Designer.cs">
+      <DependentUpon>Layout2Small.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ProizvodLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Layouts\ProizvodLayout.Designer.cs">
+      <DependentUpon>ProizvodLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ProizvodUListi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Layouts\ProizvodUListi.Designer.cs">
+      <DependentUpon>ProizvodUListi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neo4JData.cs" />
+    <Compile Include="Pocetna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pocetna.Designer.cs">
+      <DependentUpon>Pocetna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProizvodForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProizvodForma.Designer.cs">
+      <DependentUpon>ProizvodForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Layouts\Layout1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Layouts\Layout1.Designer.cs">
+      <DependentUpon>Layout1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Layout2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Layouts\Layout2.Designer.cs">
+      <DependentUpon>Layout2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddProizvod.resx">
+      <DependentUpon>AddProizvod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminOpcije.resx">
+      <DependentUpon>AdminOpcije.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kolekcijaDesc.resx">
+      <DependentUpon>kolekcijaDesc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogCollectionsAdminForm.resx">
+      <DependentUpon>CatalogCollectionsAdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKorisnikKatalozi.resx">
+      <DependentUpon>FormKorisnikKatalozi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IzborKatalogaForma.resx">
+      <DependentUpon>IzborKatalogaForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KolekcijaForma.resx">
+      <DependentUpon>KolekcijaForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\Layout4Products.resx">
+      <DependentUpon>Layout4Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProizvodiAdminForm.resx">
+      <DependentUpon>ProizvodiAdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KorisnikForma.resx">
+      <DependentUpon>KorisnikForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\Layout1Small.resx">
+      <DependentUpon>Layout1Small.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\Layout2Small.resx">
+      <DependentUpon>Layout2Small.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\ProizvodLayout.resx">
+      <DependentUpon>ProizvodLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\ProizvodUListi.resx">
+      <DependentUpon>ProizvodUListi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pocetna.resx">
+      <DependentUpon>Pocetna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProizvodForma.resx">
+      <DependentUpon>ProizvodForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Layouts\Layout1.resx">
+      <DependentUpon>Layout1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\Layout2.resx">
+      <DependentUpon>Layout2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
